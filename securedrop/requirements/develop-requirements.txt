@@ -8,6 +8,7 @@ alabaster==0.7.10         # via sphinx
 ansible-lint==3.4.21      # via molecule
 ansible==2.4.2
 anyconfig==0.9.4          # via molecule
+apache-libcloud==2.3.0
 apipkg==1.4               # via execnet
 argh==0.26.2              # via sphinx-autobuild, watchdog
 arrow==0.10.0             # via jinja2-time
@@ -91,7 +92,7 @@ python-gilt==1.2.1        # via molecule
 python-vagrant==0.5.15
 pytz==2017.2              # via babel
 pyyaml==3.12              # via ansible, ansible-lint, bandit, dparse, molecule, python-gilt, sphinx-autobuild, watchdog, yamllint
-requests==2.18.3          # via cookiecutter, docker-py, safety, sphinx
+requests==2.18.3          # via apache-libcloud, cookiecutter, docker-py, safety, sphinx
 s3transfer==0.1.12        # via boto3
 safety==1.8.4
 sh==1.12.14               # via molecule, python-gilt
